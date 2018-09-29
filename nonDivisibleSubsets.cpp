@@ -1,5 +1,8 @@
-/*
-Given a set of distinct integers, print the size of a maximal subset of S where the sum of any  numbers in S' is not evenly divisible by k.
+/**
+Question:
+Given a set of distinct integers, print the size of a maximal subset of S where the sum of any two numbers in S' is not evenly divisible by k.
+
+Execute on HackerRank.
 */
 #include <bits/stdc++.h>
 #include <math.h>
