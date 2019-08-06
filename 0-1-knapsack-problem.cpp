@@ -16,9 +16,8 @@ int knapsack(int n, int w, int v[], int wt[]) {
                 k[i][j] = k[i-1][j];
         }
     }
-    /**
-     * Uncomment the following code to print the knapsack as well
-     * /
+
+    /* Uncomment the following code to print the knapsack as well */
     // int res = k[n][w];
     // int W = w;
     

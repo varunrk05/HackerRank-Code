@@ -50,14 +50,12 @@ void inorder(Node *root)
 int main()
 {
   int t;
-  scanf("%d
-", &t);
+  scanf("%d", &t);
   while (t--)
   {
      map<int, Node*> m;
      int n;
-     scanf("%d
-",&n);
+     scanf("%d",&n);
      Node *root = NULL;
      while (n--)
      {

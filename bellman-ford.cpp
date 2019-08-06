@@ -12,12 +12,13 @@ int checkCycle(vector<int>edg[], int dis[], int v, int e) {
         }
     }
     
+	//Checks for negative weight cycle
     for(int i = 0; i < e; i++) {
         int s = edg[i][0];
         int d = edg[i][1];
         int w = edg[i][2];
         
-        if(dis[s] + w < dis[d])
+        if(dis[s] + w < dis[d]) // If distance is smaller than the shortest distance found, then a negative weight cycle exists
             return 1;
     }
     
